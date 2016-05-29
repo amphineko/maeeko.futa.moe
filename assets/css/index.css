@@ -1,0 +1,132 @@
+body {
+    background: url('../images/badcable.png') no-repeat;
+    background-position: bottom right;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, 'Microsoft YaHei', STXihei, 华文细黑, 微软雅黑, SimSun, 宋体, Heiti, 黑体, sans-serif;
+    min-height: 100%;
+    width: 100%;
+}
+
+html {
+    display: block;
+    min-height: 100%;
+    width: 100%;
+}
+
+#background-filter {
+    background: rgba(0, 0, 0, 0.15);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.15);
+    margin: 1.6em auto;
+    max-width: 48em;
+}
+
+#footer {
+    padding: 0.8em 0;
+}
+
+#footer .block {
+    font-size: 0.9em;
+    line-height: 1em;
+    margin-bottom: 0.6em;
+    margin-top: 0.6em;
+}
+
+#footer .block a {
+    color: #0B2B54;
+    text-decoration: none;
+}
+
+#footer .block i.fa {
+    color: #0B514C;
+    margin-right: 0.5em;
+}
+
+#header {
+    background: url('../images/darknoise.png');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1em;
+}
+
+#header span#logo {
+    color: #567793;
+    display: inline-block;
+    font-size: 2em;
+    vertical-align: 0.4em;
+}
+
+#header span#logo .grey {
+    color: grey;
+}
+
+#header h1#title {
+    color: #DDD;
+    display: inline-block;
+    font-size: 2.4em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+#introduction {
+    color: #454545;
+    font-size: 1em;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 1em 1.6em;
+}
+
+.service {
+    padding: 1em;
+}
+
+.service h3 {
+    font-weight: 300;
+    margin: 0 0 0.75em 0;
+}
+
+.service h3 .fa {
+    color: #712D95;
+    margin-right: 0.3em;
+}
+
+.service p {
+    color: #373737;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0 1em;
+}
+
+.service p del.grey-stroke {
+    color: grey;
+}
+
+.service p del.grey-stroke span {
+    color: #373737;
+}
+
+.services {
+    border-bottom: 1px dashed #BBB;
+    padding-bottom: 0.5em;
+}
+
+.services:last-child {
+    border-bottom: none;
+}
+
+.services h2 {
+    color: #333;
+    font-size: 1.6em;
+    font-weight: 300;
+    margin: 0;
+    padding: 0.5em 0.25em;
+}
