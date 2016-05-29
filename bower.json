@@ -1,0 +1,23 @@
+{
+  "name": "futa.moe",
+  "authors": [
+    "Naoki Rinmous <sukareki@gmail.com>"
+  ],
+  "description": "homepage at futa.moe",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "https://futa.moe/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^4.1.1",
+    "unsemantic": "^1.1.3",
+    "font-awesome": "^4.6.3"
+  }
+}
